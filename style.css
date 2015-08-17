@@ -89,7 +89,7 @@ border: 4px solid rgba(255,255,255,1);
 	margin-left: -145px;
 	display: block;
 	position: absolute;
-	bottom: 275px;
+	top: 50px;
 	left: 50%;
 }
 
@@ -151,7 +151,7 @@ a.behance:hover {
 
 @media screen and (max-width: 1500px) {
 .icons {
-	bottom: 230px;
+ top: 50px;
 }
 body {
 	background-image: url('img/background2.png');
