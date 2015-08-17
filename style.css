@@ -149,21 +149,24 @@ a.behance:hover {
 	background-image: url(img/behance.png);
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1500px) {
 .icons {
-	bottom: 210px;
+	bottom: 230px;
 }
 body {
 	background-image: url('img/background2.png');
 }
 }
 
+@media screen and (max-width: 1200px) {
+body {
+	background-image: url('img/background3.png');
+}
+}
+
 @media screen and (max-width: 500px) {
 .wrapper{
 	background-image: url(logo-mobile.png);
-}
-body {
-	background-image: url('img/background3.png');
 }
 }
 
