@@ -167,24 +167,19 @@ body {
 @media screen and (max-width: 500px) {
 .wrapper{
 	background-image: url(logo-mobile.png);
+	background-size: 250px;
 }
 .icons {
 	margin-left: -120px;
 	top: 50px;
 }
+.dribbble,
+.instagram,
+.linkedin,
+.medium,
+.behance {
+	margin-left: 0px;
 }
-
-@media screen and (max-width: 400px) {
-	.wrapper{
-		background-size: 250px;
-	}
-	.dribbble,
-	.instagram,
-	.linkedin,
-	.medium,
-	.behance {
-		margin-left: 0px;
-	}
 }
 
 
